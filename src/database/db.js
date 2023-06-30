@@ -3,7 +3,7 @@ const Sequelize = require('sequelize')
 
 
     
-    const sequelize = new Sequelize('crud_sequelize','root','1346798520',{
+    const sequelize = new Sequelize('crud_sequelize','root','',{
 
     dialect:'mysql',
     host:'localhost'
