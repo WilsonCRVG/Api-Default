@@ -7,7 +7,7 @@ const routes = express.Router()
 //ROTAS
 //ROTA PRINCIAPL
 routes.get('/',(req,res)=>{
-    res.send('Penis na lombriga ! ')
+    res.send('HOME PAGE')
 })
 
 //ROTA CRIAR PRODUTO
